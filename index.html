@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="./style/style.css">
+     <!--FONTS-->    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!--Iconos linkeados-->
+
+  <script src="https://kit.fontawesome.com/c61b9b1e01.js" crossorigin="anonymous"></script>
+    <title>MavaleStreet</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+        <h1 class="">MavaleStreet</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li>
+                <button id="todos" class="boton-menu boton-nav active">productos</button>
+            </li>
+            <li>
+                <button id="sweaters" class="boton-menu boton-nav">Sweater</button>
+            </li>
+            <li>
+                <button id="pantalones" class="boton-menu boton-nav">Pantalones</button>
+            </li>
+            <li>
+                <button id="camisas" class="boton-menu boton-nav">Camisas</button>
+            </li>
+            <li>
+                <a class=" boton-menu boton-carrito" href="./carrito.html">
+                    <i class="fa-solid fa-cart-shopping"></i>Carrito<span  id="numerito" class="numerito">0</span></a>
+            </li>   
+    </ul>
+    </nav>
+  </div>
+
+  <main>
+    <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+    <div id="contenedor-productos" class="contenedor-productos">
+       <!--ESTOS SE RELLENA AUTOMATICAMENTE CON JS-->
+    </div>
+  </main>
+
+  <footer>
+    <p class="text-footer">© MavaleStreet 2024</p>
+  </footer>
+     <!--JS-->
+    <script src="./app/index.js"></script>
+</body>
+</html>
